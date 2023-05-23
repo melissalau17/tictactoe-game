@@ -3,7 +3,9 @@ var gameData = {
   movesP2: [], // store the square id to an array
   movesAI: [],
   token1: 'x',
-  token2: 'o'
+  token2: 'o',
+  score1: 0,
+  score2: 0
 }; // store game data
 
 var isOver = false; // see whether game is ended
